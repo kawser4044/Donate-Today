@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.banner-area> h1{
+    font-size: 50px;
+    margin: 150px 0px 0px 0px;
+    color: white;
+    font-weight: 600;
+}
+.banner-area{
+    width: 635px;
+    text-align: center;
+}
+.top-section {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+.banner-area> p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: white;
+}
+.top-section {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 650px;
+}
+.donate-area-p1 {
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.donate-area-p1> h1 {
+    font-size: 30px;
+    margin-top: 100px;
+    color: #121212;
+    margin-bottom: 0px;
+}
+.donate-area-p1> p{
+    color: #707070;
+    font-size: small;
+}
+.donate-area-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.donate-amount {
+    background-color: #FAFAFA;
+    margin: 10px;
+    padding: 20px;
+    font-size: 16px;
+    color: #707070;
+    border-radius: 5px;
+}
+#selected-area {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.donate-amount> h2{
+    margin: 10px 0px;
+}
+.amount{
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    margin: auto;
+    display: block;
+    outline-style: none;
+}
+hr {
+    width: 650px;
+    color: #70708B;
+    margin-bottom: 30px;
+}
+button.donate-now {
+    display: block;
+    margin: auto;
+}
+.donate-area-p3 {
+    margin-bottom: 100px;
+}
+.donate-plan-discription {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.donate-plan-discription> h1 {
+    font-size: 30px;
+    color: #121212;
+    margin-bottom: 0px;
+}
+.donate-plan-discription> p{
+    color: #707070;
+    font-size: small;
+}
+.plan{
+    width: 300px;
+    margin: 10px;
+    padding: 30px;
+}
+.plan> p {
+    font-size: small;
+    color: #707070;
+}
+.plan> h3 {
+    margin: 0px;
+}
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+div#plan-1 {
+    background-color: #EDF5F6;
+}
+
+div#plan-2 {
+    background-color: #a8a8a859;
+}
+
+div#plan-3 {
+    background-color: #FFF4D6;
+}
+.work-p1-dis {
+    width: 50%;
+    margin-left: 100px;
+    padding-right: 50px;
+}
+
+.work-p1-img {
+    width: 50%;
+    margin-right: 100px;
+}
+.work-p1-img img {
+    width: 100%;
+}
+.donation-work-p1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-p1-dis h1 {
+    margin: 0;
+}
+.work-p2-img {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.work-p2-dis {
+    width: 50%;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+.work-p2-img img{
+    width: 100%;
+}
+.donation-work-p2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.work-p2-dis h1 {
+    margin: 0;
+}
+.update-p1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.update-p1 h1 {
+    margin-bottom: 0px;
+}
+.update-p2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #FFF4D6;
+    padding: 75px;
+    width: 500px;
+}
+input#email {
+    height: 35px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background: #a8a8a869;
+}
+
+button#subs {
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+}
+.update-p1 p{
+    color: #707070;
+}
+.footer-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #0B0D17;
+    color: white;
+}
+.footer-area h1{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
+    color: #F95757;
+}
+.footer-area p{
+    font-size: small;
+    color: #707070;
+}
